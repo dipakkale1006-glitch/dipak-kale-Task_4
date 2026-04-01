@@ -4,28 +4,23 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* container */
+/* container with viewport spacing */
 .box {
+    margin: 10vh 25vw;   /* REQUIRED */
     text-align: center;
 }
 
 /* image */
 img {
-    width: 50vw;
+    width: 100%;
     height: auto;
+    display: block;
 }
 
 /* button */
 button {
-    width: 50vw;
-    padding: 2vh;
+    width: 100%;
+    padding: 2vh 5vw;   /* viewport units */
     border: none;
     font-size: 16px;
     background: linear-gradient(to right, yellow, green);
