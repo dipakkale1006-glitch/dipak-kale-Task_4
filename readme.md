@@ -1,33 +1,27 @@
-# Task 4 - HTML CSS Box Model Project
+# Task 4 - Viewport Units and Box Model
 
 Author: Dipak Kale
 
-# Description
-This project demonstrates the CSS Box Model using a simple web page.
-It displays an image and a "Click Me" link with styling.
+## Description
+This project demonstrates the use of viewport units (vw, vh) and CSS box model without using flexbox.
 
-# Technologies Used
+## Technologies
 - HTML
 - CSS
 
-# Files
-- index.html
-- style.css
+## Features
+- Uses viewport units (vw, vh)
+- Container spacing using margin: 10vh 25vw
+- Gradient button
+- Simple layout without flexbox
 
-# CSS Box Model Used
-- Padding: Used in div and p for spacing
-- Margin: Used in p to control outer space
-- Content: Image and text inside elements
+## Box Model
+- margin: used for outer spacing
+- padding: used inside button
+- box-sizing: border-box for proper sizing
 
-# Features
-- Image display
-- Center alignment using padding
-- Gradient background
-- Clickable link
+## How to Run
+Open index.html in browser
 
-# How to Run
-1. Open index.html in browser
-
-# Future Improvement
-- Add hover effect
-- Improve responsiveness
+## Note
+Viewport units help create responsive design without media queries.
